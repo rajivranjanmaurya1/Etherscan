@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.etherscan.runners.TestRunner" time="78.702" tests="10" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.etherscan.runners.TestRunner" time="120.935" tests="10" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\RAJIV_~1\AppData\Local\Temp\1\surefire4712446011288697089\surefirebooter7775464554378356724.jar C:\Users\rajiv_ranjan_maurya\AppData\Local\Temp\1\surefire4712446011288697089 2021-11-28T22-41-17_109-jvmRun1 surefire676425397925253730tmp surefire_05331993643742890422tmp"/>
+    <property name="sun.java.command" value="C:\Users\RAJIV_~1\AppData\Local\Temp\1\surefire1061020972352753136\surefirebooter3987294258712187934.jar C:\Users\rajiv_ranjan_maurya\AppData\Local\Temp\1\surefire1061020972352753136 2021-11-28T23-22-38_852-jvmRun1 surefire7658209950116267648tmp surefire_02183657491101570331tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\rajiv_ranjan_maurya\Selenium Practice\Etherscan\target\test-classes;C:\Users\rajiv_ranjan_maurya\Selenium Practice\Etherscan\target\classes;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-testng\6.9.0\cucumber-testng-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.0.0\extentreports-cucumber6-adapter-2.0.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\rajiv_ranjan_maurya\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rajiv_ranjan_maurya"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\RAJIV_~1\AppData\Local\Temp\1\surefire4712446011288697089\surefirebooter7775464554378356724.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAJIV_~1\AppData\Local\Temp\1\surefire1061020972352753136\surefirebooter3987294258712187934.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,15 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="14.57"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="0.443"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="11.261"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="0.82"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="13.558"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="1.575"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="10.557"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="4.489"/>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="13.802">
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="28.135"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="0.155"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="20.371"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="0.507"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="20.396"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="0.673"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="23.351"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="2.886"/>
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="17.331">
     <failure message="Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Error! Invalid captcha response.Please Try Again expected [Your account registration has been submitted and is pending email verification ] but found [Error! Invalid captcha response.Please Try Again]" type="java.lang.AssertionError">java.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Error! Invalid captcha response.Please Try Again expected [Your account registration has been submitted and is pending email verification ] but found [Error! Invalid captcha response.Please Try Again]
 </failure>
     <system-out><![CDATA[
@@ -82,6 +82,12 @@ Scenario: validate that user is not able to register with existing user name    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser subscribs to newsletter&amp#27;[0m                                                                               &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.subscribe_newsletter()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects captcha&amp#27;[0m                                                                                       &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.select_captcha()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on user registration page&amp#27;[0m                                           &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_is_on_user_registration_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mabcd1&amp#27;[0m&amp#27;[32m" as user name&amp#27;[0m                                           &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_user_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mKavi@123.com&amp#27;[0m&amp#27;[32m" as email address&amp#27;[0m                                 &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_email_address(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mAbcdhe&amp#27;[0m&amp#27;[32m" as password&amp#27;[0m                                            &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mAbcdhe&amp#27;[0m&amp#27;[32m" as confirm password&amp#27;[0m                                    &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser accepts terms and contions&amp#27;[0m                                               &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_accepts_terms_and_conditions()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser subscribs to newsletter&amp#27;[0m                                                  &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.subscribe_newsletter()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser creates account&amp#27;[0m                                                                                       &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_creates_account()&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser should see "&amp#27;[0m&amp#27;[31m&amp#27;[1mYour account registration has been submitted and is pending email verification &amp#27;[0m&amp#27;[31m" message&amp#27;[0m &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(java.lang.String)&amp#27;[0m
       &amp#27;[31mjava.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Error! Invalid captcha response.Please Try Again expected [Your account registration has been submitted and is pending email verification ] but found [Error! Invalid captcha response.Please Try Again]
@@ -93,29 +99,24 @@ Scenario: validate that user is not able to register with existing user name    
 	at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:59)
 	at âœ½.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:70)
 &amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mabcd1&amp#27;[0m&amp#27;[32m" as user name&amp#27;[0m                                           &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_user_name(java.lang.String)&amp#27;[0m
-
-    Embedding image [image/png 93678 bytes]
-
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mKavi@123.com&amp#27;[0m&amp#27;[32m" as email address&amp#27;[0m                                 &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_email_address(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mAbcdhe&amp#27;[0m&amp#27;[32m" as password&amp#27;[0m                                            &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser provides "&amp#27;[0m&amp#27;[32m&amp#27;[1mAbcdhe&amp#27;[0m&amp#27;[32m" as confirm password&amp#27;[0m                                    &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_enters_confirm_password(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser accepts terms and contions&amp#27;[0m                                               &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_accepts_terms_and_conditions()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser subscribs to newsletter&amp#27;[0m                                                  &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.subscribe_newsletter()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects captcha&amp#27;[0m                                                          &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.select_captcha()&amp#27;[0m
+
+    Embedding image [image/png 93631 bytes]
+
 ]]></system-out>
-    <system-err><![CDATA[Nov 28, 2021 10:42:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 2284
+    <system-err><![CDATA[[1638122062.227][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 7126
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1638119541.190][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
-Nov 28, 2021 10:42:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 28, 2021 11:24:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1638122065.219][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 28, 2021 11:24:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="18.03">
+  <testcase name="runScenario" classname="com.etherscan.runners.TestRunner" time="19.814">
     <failure message="Incorrect error message is displayed. Expected is: Sorry! The username you entered is already in use. Actual is: Error! Invalid captcha response.Please Try Again expected [Sorry! The username you entered is already in use.] but found [Error! Invalid captcha response.Please Try Again]" type="java.lang.AssertionError">java.lang.AssertionError: Incorrect error message is displayed. Expected is: Sorry! The username you entered is already in use. Actual is: Error! Invalid captcha response.Please Try Again expected [Sorry! The username you entered is already in use.] but found [Error! Invalid captcha response.Please Try Again]
 </failure>
     <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser creates account&amp#27;[0m                                                          &amp#27;[90m# com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_creates_account()&amp#27;[0m
@@ -130,7 +131,7 @@ INFO: Detected dialect: W3C
 	at âœ½.user should see "Sorry! The username you entered is already in use." message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:84)
 &amp#27;[0m
 
-    Embedding image [image/png 93192 bytes]
+    Embedding image [image/png 93250 bytes]
 
 ]]></system-out>
   </testcase>
