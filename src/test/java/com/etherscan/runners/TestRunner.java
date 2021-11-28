@@ -1,8 +1,6 @@
 package com.etherscan.runners;
 import io.cucumber.testng.CucumberOptions;
-
 import org.testng.annotations.DataProvider;
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
