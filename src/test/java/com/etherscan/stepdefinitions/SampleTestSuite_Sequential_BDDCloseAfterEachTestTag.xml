@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- <suite name="Automation test suite for SPG Platts" parallel="tests" thread-count="10"> -->
+<suite name="Automation test suite for SPG Platts" thread-count="10">
+<!-- Browsers firefox,chrome,iexplore,firefox-headless,chrome-headless,firefox-ng,chrome-ng,iexplore-ng,firefox-headless-ng,chrome-headless-ng -->
+<!--************************************Regression tests********************************* -->
+ <parameter name="pdfngreport-properties" value="../src/main/resources/pdfngreport.properties"/>
+ <!-- *****************************************************************************************************
+ 					Sequential Execution BDD
+ ***************************************************************************************************** -->
+ 
+ <listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+	<listener class-name="automation.suite.listeners.TestListener" />
+</listeners>
+<test name="SPGP Automation Regression Test-Chrome-2"
+	preserve-order="true">
+	<parameter name="browser" value="chrome-ng" />
+	<parameter name="platform" value="WINDOWS"/>
+   	<parameter name="version" value="Automation-server"/>
+   	<parameter name="instanceID" value="0"/>
+	<classes>
+	   <class name="automation.suite.init.SuiteInit" />
+	   <class name = "automation.suite.pages.test.bdd.runner.LoginTestRunner" />
+	   <class name = "automation.suite.pages.test.bdd.runner.ProductFinderRunner" />
+       <class name = "automation.suite.pages.test.bdd.runner.CommonTestRunner" />
+	</classes>
+</test> 
+ 
+</suite>

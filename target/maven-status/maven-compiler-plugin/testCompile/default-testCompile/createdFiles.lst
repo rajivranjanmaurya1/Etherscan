@@ -1,0 +1,4 @@
+com\etherscan\helpers\UserRegistrationHelper.class
+com\etherscan\stepdefinitions\UserRegistrationStepDefinition.class
+com\etherscan\runners\TestRunner.class
+com\etherscan\pages\UserRegistrationPage.class

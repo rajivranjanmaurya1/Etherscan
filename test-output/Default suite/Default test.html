@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 28 14:45:17 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>90 seconds (90297 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate that user is able to create account successfully", "Optional[This feature is to test user registration functionality]"</td>
+<td><div><pre>java.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Sorry! The username you entered is already in use. expected [Your account registration has been submitted and is pending email verification ] but found [Sorry! The username you entered is already in use.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:59)
+	at ?.user should see &quot;Your account registration has been submitted and is pending email verification &quot; message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:70)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1138602627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1138602627'><pre>java.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Sorry! The username you entered is already in use. expected [Your account registration has been submitted and is pending email verification ] but found [Sorry! The username you entered is already in use.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:59)
+	at ?.user should see &quot;Your account registration has been submitted and is pending email verification &quot; message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:70)
+</pre></div></td>
+<td>87</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message for invalid email address", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>79</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message when password is confirmed wrongly", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>79</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message for invalid email address", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>67</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message for invalid password", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>86</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate that user is not able to register with existing user name", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>86</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate that user is not able to create account without selecting captcha", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>87</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate that user is not able to create account without accepting terms and conditions", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>87</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message for invalid user name", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>75</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+<tr>
+<td title='com.etherscan.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.etherscan.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate error message for invalid user name", "Optional[This feature is to test user registration functionality]"</td>
+<td></td>
+<td>85</td>
+<td>com.etherscan.runners.TestRunner@77f99a05</td></tr>
+</table><p>
+</body>
+</html>

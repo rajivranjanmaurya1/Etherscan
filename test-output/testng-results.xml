@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90297" started-at="2021-11-28T14:45:17 IST" finished-at="2021-11-28T14:46:48 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="90297" started-at="2021-11-28T14:45:17 IST" finished-at="2021-11-28T14:46:48 IST">
+      <class name="com.etherscan.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="setUpClass" is-config="true" duration-ms="1493" started-at="2021-11-28T14:45:18 IST" finished-at="2021-11-28T14:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="67433" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message for invalid email address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="75890" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message for invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="85332" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message for invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="79833" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message for invalid email address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="86250" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message for invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="79837" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate error message when password is confirmed wrongly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="87229" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate that user is not able to create account without accepting terms and conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="87685" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate that user is not able to create account without selecting captcha"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="87436" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate that user is able to create account successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Sorry! The username you entered is already in use. expected [Your account registration has been submitted and is pending email verification ] but found [Sorry! The username you entered is already in use.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Sorry! The username you entered is already in use. expected [Your account registration has been submitted and is pending email verification ] but found [Sorry! The username you entered is already in use.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:59)
+at ✽.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="runScenario" duration-ms="86808" started-at="2021-11-28T14:45:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-28T14:46:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate that user is not able to register with existing user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature is to test user registration functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.etherscan.runners.TestRunner@77f99a05]" name="tearDownClass" is-config="true" duration-ms="993" started-at="2021-11-28T14:46:47 IST" finished-at="2021-11-28T14:46:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.etherscan.runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

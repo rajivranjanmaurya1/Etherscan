@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.etherscan.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 78.702 s <<< FAILURE! - in com.etherscan.runners.TestRunner
+runScenario(com.etherscan.runners.TestRunner)  Time elapsed: 13.802 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect error message is displayed. Expected is: Your account registration has been submitted and is pending email verification  Actual is: Error! Invalid captcha response.Please Try Again expected [Your account registration has been submitted and is pending email verification ] but found [Error! Invalid captcha response.Please Try Again]
+
+runScenario(com.etherscan.runners.TestRunner)  Time elapsed: 18.03 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect error message is displayed. Expected is: Sorry! The username you entered is already in use. Actual is: Error! Invalid captcha response.Please Try Again expected [Sorry! The username you entered is already in use.] but found [Error! Invalid captcha response.Please Try Again]
+
