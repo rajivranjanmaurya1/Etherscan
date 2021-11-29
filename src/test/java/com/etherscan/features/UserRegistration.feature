@@ -77,7 +77,7 @@ Feature: This feature is to test user registration functionality
     Then user should see "Please accept our Terms and Conditions." message
     
 
-  Scenario Outline: Validate that Etherscan term and services page is displayed in new tab on clicking Terms and Conditions link 
+  Scenario Outline: Validate that new page is opened in new tab on clicking terms and conditions and newsletter links 
     When user clicks "<link>" link   
     Then user should see page with title "<title>" opened in new tab 
      Examples:
