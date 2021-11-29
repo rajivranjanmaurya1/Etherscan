@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="135063" started-at="2021-11-29T06:05:39 IST" finished-at="2021-11-29T06:07:54 IST">
+  <suite name="Surefire suite" duration-ms="133626" started-at="2021-11-29T06:29:25 IST" finished-at="2021-11-29T06:31:39 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="135063" started-at="2021-11-29T06:05:39 IST" finished-at="2021-11-29T06:07:54 IST">
+    <test name="Surefire test" duration-ms="133626" started-at="2021-11-29T06:29:25 IST" finished-at="2021-11-29T06:31:39 IST">
       <class name="com.etherscan.runners.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="setUpClass" is-config="true" duration-ms="2742" started-at="2021-11-29T06:05:39 IST" finished-at="2021-11-29T06:05:42 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="setUpClass" is-config="true" duration-ms="1704" started-at="2021-11-29T06:29:25 IST" finished-at="2021-11-29T06:29:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="15089" started-at="2021-11-29T06:05:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:05:57 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="18220" started-at="2021-11-29T06:29:27 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:29:45 IST">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="14919" started-at="2021-11-29T06:05:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:05:57 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="18265" started-at="2021-11-29T06:29:27 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:29:45 IST">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="10459" started-at="2021-11-29T06:05:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:07 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="12431" started-at="2021-11-29T06:29:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:29:58 IST">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="10756" started-at="2021-11-29T06:05:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:08 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="12658" started-at="2021-11-29T06:29:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:29:58 IST">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="25912" started-at="2021-11-29T06:06:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:33 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="12978" started-at="2021-11-29T06:29:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:11 IST">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="22011" started-at="2021-11-29T06:06:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:30 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="13683" started-at="2021-11-29T06:29:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:12 IST">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="13605" started-at="2021-11-29T06:06:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:43 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="16822" started-at="2021-11-29T06:30:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:28 IST">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="13682" started-at="2021-11-29T06:06:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:47 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="17760" started-at="2021-11-29T06:30:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:29 IST">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="13566" started-at="2021-11-29T06:06:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:06:57 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="16348" started-at="2021-11-29T06:30:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:44 IST">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="13428" started-at="2021-11-29T06:06:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:00 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="15512" started-at="2021-11-29T06:30:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:45 IST">
           <params>
             <param index="0">
               <value>
@@ -174,7 +174,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="19765" started-at="2021-11-29T06:06:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:17 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="14827" started-at="2021-11-29T06:30:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:30:59 IST">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="22629" started-at="2021-11-29T06:07:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:23 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="17045" started-at="2021-11-29T06:30:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:31:02 IST">
           <params>
             <param index="0">
               <value>
@@ -206,7 +206,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="18421" started-at="2021-11-29T06:07:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:35 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="24613" started-at="2021-11-29T06:30:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:31:23 IST">
           <params>
             <param index="0">
               <value>
@@ -231,14 +231,14 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:49)
-at ✽.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:99)
+at ✽.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:92)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="16983" started-at="2021-11-29T06:07:23 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:40 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="23959" started-at="2021-11-29T06:31:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:31:26 IST">
           <params>
             <param index="0">
               <value>
@@ -263,14 +263,14 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:49)
-at ✽.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:111)
+at ✽.user should see "Your account registration has been submitted and is pending email verification " message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:103)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="17779" started-at="2021-11-29T06:07:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:07:53 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="runScenario" duration-ms="14745" started-at="2021-11-29T06:31:23 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T06:31:38 IST">
           <params>
             <param index="0">
               <value>
@@ -295,14 +295,14 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at com.etherscan.stepdefinitions.UserRegistrationStepDefinition.user_see_error_message(UserRegistrationStepDefinition.java:49)
-at ✽.user should see "Sorry! The username you entered is already in use." message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:125)
+at ✽.user should see "Sorry! The username you entered is already in use." message(file:///C:/Users/rajiv_ranjan_maurya/Selenium%20Practice/Etherscan/src/test/java/com/etherscan/features/UserRegistration.feature:116)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="tearDownClass" is-config="true" duration-ms="1215" started-at="2021-11-29T06:07:53 IST" finished-at="2021-11-29T06:07:54 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.etherscan.runners.TestRunner@4e9ba398]" name="tearDownClass" is-config="true" duration-ms="750" started-at="2021-11-29T06:31:38 IST" finished-at="2021-11-29T06:31:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

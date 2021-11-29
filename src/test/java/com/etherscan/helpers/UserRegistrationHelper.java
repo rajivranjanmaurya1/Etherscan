@@ -1,7 +1,6 @@
 package com.etherscan.helpers;
 
 import org.openqa.selenium.WebDriver;
-
 import com.etherscan.pages.UserRegistrationPage;
 
 public class UserRegistrationHelper {
