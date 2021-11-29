@@ -73,7 +73,6 @@ public class UserRegistrationStepDefinition {
 	public void user_sees_error(DataTable errorMessage) throws Exception {
 		String expectedErrorMessage = errorMessage.asList().get(0);
 		String actualErrorMessage  = userRegistrationHelper.getErrorMessage();
-		System.out.println(actualErrorMessage);
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Incorrect error message is displayed. Expected is: " + expectedErrorMessage + " Actual is: "+ actualErrorMessage );
 	}
 
@@ -100,6 +99,38 @@ public class UserRegistrationStepDefinition {
 		userRegistrationHelper.selectNewsLetter();
 	}
 	
+	
+	@Then("^user should see \"([^\"]*)\" news letter text$")
+	public void validate_new_letter_text(String expectedNewsLetterText)	{
+		String actualNewLetterText  = userRegistrationHelper.getNewsLetterText();
+		Assert.assertEquals(actualNewLetterText, expectedNewsLetterText, "Incorrect news letter text is displayed. Expected is: " + expectedNewsLetterText + " Actual is: "+ actualNewLetterText );
+	}
+	
+	@Then("^user should see \"([^\"]*)\" term and conditions text$")
+	public void validate_term_condition_text(String expectedTermConditionText)	{
+		String actualTermConditionText  = userRegistrationHelper.getTermConditionText();
+		Assert.assertEquals(actualTermConditionText, expectedTermConditionText, "Incorrect terms and conditions text is displayed. Expected is: " + expectedTermConditionText + " Actual is: "+ actualTermConditionText );
+	}
+	
+	
+	@When("^user clicks \"([^\"]*)\" link$")
+	public void user_click_link(String link)	{
+		userRegistrationHelper.clickLink(link);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	@Then("^user should see page with title \"([^\"]*)\" opened in new tab$")
+	public void validate_new_page_title(String expectedPageTitle)	{
+		String actualPageTitle  = userRegistrationHelper.getNewTabPageTitle();
+		Assert.assertEquals(actualPageTitle, expectedPageTitle, "Incorrect news letter text is displayed. Expected is: " + expectedPageTitle + " Actual is: "+ actualPageTitle );
+	}
+
 	
 	@AfterStep
 	public void addScreenshot(Scenario scenario){

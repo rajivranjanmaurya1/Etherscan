@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 	        features = "src/test/java/com/etherscan/features",
 	        glue = {"com.etherscan.stepdefinitions"},
-	        tags= "",
+	        tags= "@Test",
 	        plugin = {
 	                "pretty",
 	                "html:target/cucumber-reports/cucumber-pretty",

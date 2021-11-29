@@ -1,5 +1,8 @@
 package com.etherscan.helpers;
 
+import java.util.ArrayList;
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import com.etherscan.pages.UserRegistrationPage;
 
@@ -57,6 +60,29 @@ public class UserRegistrationHelper {
 	
 	public void selectNewsLetter() {		
 		userRegistrationPage.selectNewsLetter();
+	}
+	
+	
+	public String getNewsLetterText() {		
+		return userRegistrationPage.getNewsLetterLabel();
+	}
+	
+	public String getTermConditionText() {		
+		return userRegistrationPage.getTermConditionLabel();
+	}
+	
+	public void clickLink(String link) {
+		if (link.toLowerCase().equals("news letter")){
+			userRegistrationPage.clickNewsLetterLink();
+		}else if (link.toLowerCase().equals("terms and conditions")) {
+			userRegistrationPage.clickTermConditionLink();;
+		}
+	}
+	
+	public String getNewTabPageTitle() {
+		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(1));
+		return driver.getTitle();
 	}
 
 }

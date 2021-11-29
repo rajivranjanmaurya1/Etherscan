@@ -5,9 +5,9 @@
     <classes>
       <class name="com.etherscan.runners.TestRunner">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="8"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
       </class> <!-- com.etherscan.runners.TestRunner -->
     </classes>

@@ -58,6 +58,15 @@ Feature: This feature is to test user registration functionality
     And user provides "Abcdhe" as password
     And user creates account
     Then user should see "Your password must be at least 5 characters long." message  
+    
+  
+   
+  Scenario: validate term and condition text
+    Then user should see "I agree to the Terms and Conditions" term and conditions text
+ 
+  
+  Scenario: validate news letter text
+    Then user should see "I agree to receive the Etherscan newsletter and understand that I can unsubscribe at any time." news letter text
   
   Scenario: validate that user is not able to create account without accepting terms and conditions
     When user provides "Kavi123" as user name
@@ -66,6 +75,21 @@ Feature: This feature is to test user registration functionality
     And user provides "Abcdhe" as confirm password
     And user creates account
     Then user should see "Please accept our Terms and Conditions." message
+    
+
+  Scenario Outline: Validate that Etherscan term and services page is displayed in new tab on clicking Terms and Conditions link 
+    When user clicks "<link>" link   
+    Then user should see page with title "<title>" opened in new tab 
+     Examples:
+    	|link						  |title													   |
+    	|news letter				  |How to Subscribe & Unsubscribe From the Etherscan Newsletter|
+    	|terms and conditions		  |Etherscan Terms and Policies|
+    
+   
+   
+  Scenario: Validate that Etherscan term and services page is displayed in new tab on clicking unsubscribe link
+    When user clicks "news letter" link   
+    Then user should see page with title "How to Subscribe & Unsubscribe From the Etherscan Newsletter" opened in new tab
 
     
    
